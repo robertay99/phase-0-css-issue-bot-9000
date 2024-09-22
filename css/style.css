@@ -1,23 +1,20 @@
 body {
-  background pink;
+  background: pink; /* Ensure this line is present */
 }
 
 h1 {
-  color: blue;
-  fontsize: 3em; 
+  font-size: 3em; /* Ensure this line is present */
 }
 
 h2 {
-  color: green;
-  font-weight: normal
-  font-style: italic;
+  font-weight: normal; /* Ensure this line is present */
+  font-style: italic; /* Keep this line */
 }
 
 .completed {
-  font-family: 12px;
+  font-size: 12px; /* Ensure this line is present */
 }
 
 #tasks .completed {
-  backgound: #ccc;
-  text-decoration: underline;
+  background: #ccc; /* Ensure this line is present */
 }
